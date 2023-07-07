@@ -75,5 +75,9 @@ ui["edluffy/specs.nvim"] = {
 	event = "CursorMoved",
 	config = require("ui.specs"),
 }
+ui["shaunsingh/solarized.nvim"] = {
+	lazy = true,
+	config = require("ui.solarized"),
+}
 
 return ui
